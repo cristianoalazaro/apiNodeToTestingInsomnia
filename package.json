@@ -1,0 +1,25 @@
+{
+  "name": "api_teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/uuid": "^9.0.8",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "typescript": "^5.4.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "ts-node-dev": "^2.0.0"
+  }
+}
